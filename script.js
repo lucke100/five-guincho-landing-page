@@ -131,6 +131,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const whatsappMessage = encodeURIComponent(rawMsg);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
       
+      // GTM Conversion Event
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'click_true' });
+
       window.open(whatsappUrl, '_blank');
       closeModal();
       expressForm.reset();
