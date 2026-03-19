@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Five Guincho | O Guincho mais rápido de São Paulo</title>
+  <meta name="description" content="Five Guincho — Guincho 24h em São Paulo. Resgate imediato via WhatsApp. Equipe própria, rota otimizada e +5.000 atendimentos com 99% de satisfação." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="glow-gold" aria-hidden="true"></div>
+  <div class="glow-amber" aria-hidden="true"></div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="header">
+    <div class="header-bar liquid-glass">
+      <div class="header-logo font-headline">Five Guincho</div>
+      <div class="header-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        <span class="badge-text">Online</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main class="main-content">
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="inicio">
+      <div class="hero-image-wrapper animate-fade-in-up">
+        <img
+          alt="Profissional da Five Guincho atendendo carro parado em São Paulo"
+          src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/hero_bg_1773926470104.png"
+        />
+        <div class="hero-overlay">
+          <div class="hero-tag">
+            <span>Resgate Imediato</span>
+          </div>
+          <h1 class="hero-title font-headline">
+            O guincho mais <span class="highlight">rápido</span> de São Paulo
+          </h1>
+          <p class="hero-subtitle">
+            Seu problema resolvido por profissionais que entendem do assunto.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-cta-card glass-card animate-fade-in-up delay-2">
+        <label class="hero-cta-label" for="state-selector">Onde você está?</label>
+        <div class="state-selector-wrapper">
+          <select class="state-selector" id="state-selector">
+            <option value="SP">São Paulo (Capital e Grande SP)</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="OTHER">Outros Estados</option>
+          </select>
+          <span class="material-symbols-outlined state-selector-icon" aria-hidden="true">expand_more</span>
+        </div>
+
+        <div class="cta-sp" id="cta-sp">
+          <a class="btn-primary" href="#" data-whatsapp>
+            <span class="material-symbols-outlined filled">chat</span>
+            Chamar no WhatsApp
+          </a>
+        </div>
+
+        <div class="cta-other" id="cta-other">
+          <span class="material-symbols-outlined">info</span>
+          <p>Atendemos somente São Paulo no momento.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BENEFITS SECTION ========== -->
+    <section class="benefits reveal" id="servicos">
+      <h2 class="section-title">Por que somos a escolha número 1</h2>
+      <div class="benefits-grid">
+        <!-- Column 1 -->
+        <div class="benefits-col">
+          <div class="stat-card glass-card">
+            <img
+              class="stat-card__bg"
+              alt=""
+              src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/call_center_bg_1773926505884.png"
+              aria-hidden="true"
+            />
+            <div class="stat-card__content">
+              <div class="stat-card__number font-headline">+5.000</div>
+              <div class="stat-card__label">Atendimentos</div>
+            </div>
+          </div>
+
+          <div class="feature-card glass-card">
+            <div class="feature-card__image feature-card__image--grayscale">
+              <img
+                alt="Mapa de cobertura de São Paulo"
+                src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/map_bg_1773926572896.png"
+              />
+              <div class="feature-card__image-overlay"></div>
+            </div>
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">Rota Otimizada</h3>
+              <p class="feature-card__desc">Chegada em até 30 min em toda Capital e Grande SP.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="benefits-col">
+          <div class="feature-card glass-card">
+            <div class="feature-card__image feature-card__image--tall">
+              <img
+                alt="Especialista uniformizado da Five Guincho"
+                src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/team_bg_1773926521240.png"
+              />
+            </div>
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">Equipe Própria</h3>
+              <p class="feature-card__desc">Profissionais uniformizados e treinados.</p>
+            </div>
+          </div>
+
+          <div class="satisfaction-card glass-card">
+            <span class="satisfaction-card__icon material-symbols-outlined filled" aria-hidden="true">verified</span>
+            <div class="satisfaction-card__content">
+              <div class="satisfaction-card__number font-headline">99%</div>
+              <div class="satisfaction-card__label">Satisfação</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SUPPORT 24H ========== -->
+    <section class="support-section reveal">
+      <div class="support-card glass-card">
+        <div class="support-card__image">
+          <img
+            alt="Central de atendimento 24h da Five Guincho"
+            src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/support_main_1773926591647.png"
+          />
+          <div class="support-card__image-gradient"></div>
+        </div>
+        <div class="support-card__body">
+          <div class="support-card__icon-wrapper">
+            <span class="material-symbols-outlined">headset_mic</span>
+          </div>
+          <h2 class="support-card__title font-headline">Suporte 24h Real</h2>
+          <p class="support-card__desc">
+            Nossa central nunca dorme. Diferente de plataformas automáticas, você fala com atendentes humanos prontos para agilizar sua remoção em feriados e madrugadas.
+          </p>
+          <div class="support-card__team">
+            <div class="avatar-stack">
+              <div class="avatar-stack__item">
+                <img alt="Membro da equipe" src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/support_avatar_1_1773926607169.png" />
+              </div>
+              <div class="avatar-stack__item">
+                <img alt="Membro da equipe" src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/support_avatar_2_1773926623185.png" />
+              </div>
+              <div class="avatar-stack__item">
+                <img alt="Membro da equipe" src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/support_avatar_3_1773926680739.png" />
+              </div>
+            </div>
+            <span class="team-label">Time de prontidão agora</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials reveal">
+      <div class="testimonials__header">
+        <h2 class="section-title">Relatos Reais</h2>
+      </div>
+      <div class="testimonials__carousel">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card glass-card">
+          <img
+            class="testimonial-card__bg"
+            alt=""
+            src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/hero_bg_1773926470104.png"
+            aria-hidden="true"
+          />
+          <div class="testimonial-card__overlay"></div>
+          <div class="testimonial-card__inner">
+            <div class="testimonial-card__quote-icon">
+              <span class="material-symbols-outlined">format_quote</span>
+            </div>
+            <div class="testimonial-card__bottom">
+              <div class="testimonial-stars">
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+              </div>
+              <p class="testimonial-card__text">"Fiquei preso no meio da Dutra à noite e o guincho chegou extremamente rápido. O motorista foi muito educado e prestativo. Serviço nota 10!"</p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">
+                  <img alt="Roberto Matias" src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/testimonial_avatar_1_1773926697660.png" />
+                </div>
+                <div>
+                  <div class="testimonial-card__name">Roberto Matias</div>
+                  <div class="testimonial-card__role">Engenheiro</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card glass-card">
+          <img
+            class="testimonial-card__bg"
+            alt=""
+            src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/hero_bg_1773926470104.png"
+            aria-hidden="true"
+          />
+          <div class="testimonial-card__overlay"></div>
+          <div class="testimonial-card__inner">
+            <div class="testimonial-card__quote-icon">
+              <span class="material-symbols-outlined">format_quote</span>
+            </div>
+            <div class="testimonial-card__bottom">
+              <div class="testimonial-stars">
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+                <span class="material-symbols-outlined filled">star</span>
+              </div>
+              <p class="testimonial-card__text">"Meu carro quebrou voltando do trabalho. A central me atendeu imediatamente e o resgate foi super seguro. Recomendo de olhos fechados."</p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">
+                  <img alt="Juliana Peixoto" src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/testimonial_avatar_2_1773926717036.png" />
+                </div>
+                <div>
+                  <div class="testimonial-card__name">Juliana Peixoto</div>
+                  <div class="testimonial-card__role">Professora</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA FINAL ========== -->
+    <section class="cta-final reveal">
+      <div class="cta-final__card">
+        <img
+          class="cta-final__bg"
+          alt=""
+          src="/Users/lm/.gemini/antigravity/brain/66902a33-1a70-4ada-b6d4-e8664ca61bab/cta_bg_1773926490150.png"
+          aria-hidden="true"
+        />
+        <div class="cta-final__content">
+          <h2 class="cta-final__title font-headline">Precisa de guincho agora?</h2>
+          <p class="cta-final__desc">Não fique exposto ao perigo na via. Clique abaixo para resgate imediato.</p>
+          <a class="btn-primary btn-primary--rounded" href="#" data-whatsapp>
+            <span class="material-symbols-outlined">emergency</span>
+            Pedir Guincho Agora
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-logo font-headline">Five Guincho</div>
+    <nav class="footer-nav">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#">Privacidade</a>
+    </nav>
+    <div class="footer-copy">
+      © <span id="current-year">2024</span> Five Guincho. Atendimento Premium 24h.
+    </div>
+  </footer>
+
+  <!-- ===================== BOTTOM NAV (Mobile) ===================== -->
+  <nav class="bottom-nav" aria-label="Navegação mobile">
+    <a class="bottom-nav__link bottom-nav__link--active" href="#inicio">
+      <span class="material-symbols-outlined filled">home</span>
+      <span class="nav-label">Início</span>
+    </a>
+    <a class="bottom-nav__link" href="#servicos">
+      <span class="material-symbols-outlined">construction</span>
+      <span class="nav-label">Serviços</span>
+    </a>
+    <a class="bottom-nav__link" href="#" data-whatsapp>
+      <span class="material-symbols-outlined">alternate_email</span>
+      <span class="nav-label">Contato</span>
+    </a>
+  </nav>
+
+  <!-- ===================== WHATSAPP FAB ===================== -->
+  <a class="whatsapp-fab" href="#" data-whatsapp aria-label="Chamar no WhatsApp">
+    <span class="material-symbols-outlined filled">chat</span>
+  </a>
+
+  <!-- ===================== MODAL EXPRESS ===================== -->
+  <div class="modal-overlay" id="express-modal" aria-hidden="true" tabindex="-1">
+    <div class="modal-card liquid-glass" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <h3 class="modal-title font-headline" id="modal-title">Para agilizar seu orçamento.</h3>
+        <button class="modal-close" id="modal-close" aria-label="Fechar">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="express-form">
+          <div class="form-group">
+            <label for="form-nome">Nome do cliente</label>
+            <input type="text" id="form-nome" required placeholder="Ex: João da Silva">
+          </div>
+
+          <div class="form-group">
+            <label for="form-local">Localização do veículo</label>
+            <select id="form-local" required>
+              <option value="" disabled selected>Selecione seu estado</option>
+              <option value="SP">São Paulo (Capital e Grande SP)</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="OTHER">Outros Estados</option>
+            </select>
+          </div>
+
+          <div id="form-error" class="cta-other">
+            <span class="material-symbols-outlined">info</span>
+            <p>Atendemos somente São Paulo no momento.</p>
+          </div>
+
+          <div id="form-fields-extended">
+            <div class="form-group">
+              <label for="form-tipo">Qual modelo do veículo?</label>
+              <select id="form-tipo" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="Carro de passeio">Carro de passeio</option>
+                <option value="Caminhão">Caminhão</option>
+                <option value="Moto">Moto</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="form-fab">Qual fabricante do veículo?</label>
+              <input type="text" id="form-fab" required placeholder="Ex: Volkswagen, Audi, Chevrolet...">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-cor">Cor do veículo</label>
+                <input type="text" id="form-cor" required placeholder="Ex: Prata">
+              </div>
+              <div class="form-group">
+                <label for="form-placa">Placa do veículo</label>
+                <input type="text" id="form-placa" required placeholder="ABC-1234">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="radio-group-label">Você já realizou alguma cotação ou a nossa empresa é a primeira?</label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="cotacao" value="Primeira cotação" required>
+                  <span class="radio-custom"></span> Primeira cotação
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="cotacao" value="Já realizei outra cotação">
+                  <span class="radio-custom"></span> Já realizei cotação
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-primary btn-submit-modal">
+              <span class="material-symbols-outlined filled">chat</span>
+              Ir para o WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
