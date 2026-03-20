@@ -81,7 +81,7 @@
         </div>
 
         <div class="cta-sp" id="cta-sp">
-          <a class="btn-primary" href="#" data-whatsapp>
+          <a class="btn-primary" id="botao_whatsapp" href="https://wa.me/5511939138005?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho%20em%20SP" target="_blank">
             <span class="material-symbols-outlined filled">chat</span>
             Chamar no WhatsApp
           </a>
@@ -280,7 +280,7 @@
         <div class="cta-final__content">
           <h2 class="cta-final__title font-headline">Precisa de guincho agora?</h2>
           <p class="cta-final__desc">Não fique exposto ao perigo na via. Clique abaixo para resgate imediato.</p>
-          <a class="btn-primary btn-primary--rounded" href="#" data-whatsapp>
+          <a class="btn-primary btn-primary--rounded" id="botao_whatsapp" href="https://wa.me/5511939138005?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho%20em%20SP" target="_blank">
             <span class="material-symbols-outlined">emergency</span>
             Pedir Guincho Agora
           </a>
@@ -313,100 +313,18 @@
       <span class="material-symbols-outlined">construction</span>
       <span class="nav-label">Serviços</span>
     </a>
-    <a class="bottom-nav__link" href="#" data-whatsapp>
+    <a class="bottom-nav__link" id="botao_whatsapp" href="https://wa.me/5511939138005?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho%20em%20SP" target="_blank">
       <span class="material-symbols-outlined">alternate_email</span>
       <span class="nav-label">Contato</span>
     </a>
   </nav>
 
   <!-- ===================== WHATSAPP FAB ===================== -->
-  <a class="whatsapp-fab" href="#" data-whatsapp aria-label="Chamar no WhatsApp">
+  <a class="whatsapp-fab" id="botao_whatsapp" href="https://wa.me/5511939138005?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho%20em%20SP" target="_blank" aria-label="Chamar no WhatsApp">
     <span class="material-symbols-outlined filled">chat</span>
   </a>
 
-  <!-- ===================== MODAL EXPRESS ===================== -->
-  <div class="modal-overlay" id="express-modal" aria-hidden="true" tabindex="-1">
-    <div class="modal-card liquid-glass" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-      <div class="modal-header">
-        <h3 class="modal-title font-headline" id="modal-title">Para agilizar seu orçamento.</h3>
-        <button class="modal-close" id="modal-close" aria-label="Fechar">
-          <span class="material-symbols-outlined">close</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form id="express-form">
-          <div class="form-group">
-            <label for="form-nome">Nome do cliente</label>
-            <input type="text" id="form-nome" required placeholder="Ex: João da Silva">
-          </div>
 
-          <div class="form-group">
-            <label for="form-local">Localização do veículo</label>
-            <select id="form-local" required>
-              <option value="" disabled selected>Selecione seu estado</option>
-              <option value="SP">São Paulo (Capital e Grande SP)</option>
-              <option value="RJ">Rio de Janeiro</option>
-              <option value="MG">Minas Gerais</option>
-              <option value="OTHER">Outros Estados</option>
-            </select>
-          </div>
-
-          <div id="form-error" class="cta-other">
-            <span class="material-symbols-outlined">info</span>
-            <p>Atendemos somente São Paulo no momento.</p>
-          </div>
-
-          <div id="form-fields-extended">
-            <div class="form-group">
-              <label for="form-tipo">Qual modelo do veículo?</label>
-              <select id="form-tipo" required>
-                <option value="" disabled selected>Selecione</option>
-                <option value="Carro de passeio">Carro de passeio</option>
-                <option value="Caminhão">Caminhão</option>
-                <option value="Moto">Moto</option>
-                <option value="Outros">Outros</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="form-fab">Qual fabricante do veículo?</label>
-              <input type="text" id="form-fab" required placeholder="Ex: Volkswagen, Audi, Chevrolet...">
-            </div>
-
-            <div class="form-row">
-              <div class="form-group">
-                <label for="form-cor">Cor do veículo</label>
-                <input type="text" id="form-cor" required placeholder="Ex: Prata">
-              </div>
-              <div class="form-group">
-                <label for="form-placa">Placa do veículo</label>
-                <input type="text" id="form-placa" required placeholder="ABC-1234">
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label class="radio-group-label">Você já realizou alguma cotação ou a nossa empresa é a primeira?</label>
-              <div class="radio-group">
-                <label class="radio-label">
-                  <input type="radio" name="cotacao" value="Primeira cotação" required>
-                  <span class="radio-custom"></span> Primeira cotação
-                </label>
-                <label class="radio-label">
-                  <input type="radio" name="cotacao" value="Já realizei outra cotação">
-                  <span class="radio-custom"></span> Já realizei cotação
-                </label>
-              </div>
-            </div>
-
-            <button type="submit" id="botao_whatsapp" class="btn-primary btn-submit-modal">
-              <span class="material-symbols-outlined filled">chat</span>
-              Ir para o WhatsApp
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
 
   <!-- Script -->
   <script src="script.js"></script>
