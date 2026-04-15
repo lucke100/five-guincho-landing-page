@@ -1107,6 +1107,12 @@ select {
   font-size: 1.875rem;
 }
 
+/* GTM Click ID fix: garantir que o clique registre no <a> pai */
+.whatsapp-fab > *,
+.btn-primary > * {
+  pointer-events: none;
+}
+
 /* ============================================
    MODAL EXPRESS
    ============================================ */
