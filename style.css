@@ -1109,7 +1109,8 @@ select {
 
 /* GTM Click ID fix: garantir que o clique registre no <a> pai */
 .whatsapp-fab > *,
-.btn-primary > * {
+.btn-primary > *,
+.bottom-nav__link > * {
   pointer-events: none;
 }
 
